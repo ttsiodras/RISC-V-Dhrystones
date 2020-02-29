@@ -21,7 +21,7 @@ The board needs to be set to DFU mode (BOOT0 jumper high,
 BOOT1 low) - then a simple `make` will build the code
 (using `riscv64-unknown-elf-gcc`) and upload it to the
 board using `dfu-util`. At the end of the upload, the
-benchmarks starts executing immediately, and reports this:
+benchmark starts executing immediately, and reports this:
 
     Dhrystone Benchmark, Version 2.1 (Language: C)
     Execution starts...
